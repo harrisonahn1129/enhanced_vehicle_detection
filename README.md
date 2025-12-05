@@ -43,11 +43,11 @@ To reduce overfitting, hyperparameters will be tuned and Non-Maximum Suppression
 The baseline evaluation uses **YOLO-V5m** on adverse-weather highway footage.  
 We then replace its backbone with **SwinV2-Tiny**, chosen for:
 
-- ✔ Hierarchical multi-scale feature extraction compatible with YOLO’s PAN-FPN  
-- ✔ Normalized attention → more stable in fog/snow  
-- ✔ Continuous positional bias → handles large vehicle motion  
-- ✔ Large-window attention → stronger global context under blurred edges  
-- ✔ Clean integration of **SwinV2 Stages 2/3/4** as P3/P4/P5 feature maps  
+- Hierarchical multi-scale feature extraction compatible with YOLO’s PAN-FPN  
+- Normalized attention → more stable in fog/snow  
+- Continuous positional bias → handles large vehicle motion  
+- Large-window attention → stronger global context under blurred edges  
+- Clean integration of **SwinV2 Stages 2/3/4** as P3/P4/P5 feature maps  
 
 Training is limited to **5–10 epochs** and **≤90 minutes**, following course constraints.
 
