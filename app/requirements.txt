@@ -1,0 +1,31 @@
+# PyTorch and TorchVision
+torch>=1.7.0
+torchvision>=0.8.0
+
+# Computer Vision
+opencv-python>=4.10.0
+
+# Data Processing
+numpy>=1.18.5
+pandas>=1.1.0
+
+# Visualization
+matplotlib>=3.2.2
+seaborn>=0.11.0
+
+# Jupyter/IPython
+ipython>=7.0.0
+ipywidgets>=7.0.0
+
+# YOLOv5 Dependencies
+gitpython>=3.1.0
+pillow>=7.1.2
+pyyaml>=5.3.1
+requests>=2.23.0
+scipy>=1.4.1
+tqdm>=4.64.0
+psutil>=5.0.0
+
+# Utilities
+python-dateutil>=2.8.0
+
